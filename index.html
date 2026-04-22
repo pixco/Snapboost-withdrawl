@@ -1,4 +1,4 @@
-react
+```react
 import React, { useState, useEffect, useRef } from 'react';
 
 // Menggunakan Inline SVG untuk kestabilan penuh tanpa library eksternal
@@ -551,45 +551,4 @@ export default App;
 
 
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snapboost Emergency Withdrawal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
-    <style>
-        body { background-color: #0f172a; color: white; font-family: sans-serif; }
-        .card { background: #1e293b; border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5); }
-    </style>
-</head>
-<body class="flex items-center justify-center min-h-screen">
-    <div class="card w-full max-w-md text-center">
-        <div class="mb-6 flex justify-center">
-            <svg class="w-16 h-16 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-            </svg>
-        </div>
-        <h1 class="text-2xl font-bold mb-2">Snapboost Withdrawal</h1>
-        <p class="text-slate-400 mb-6">Emergency Withdrawal System</p>
-        
-        <div class="space-y-4 text-left">
-            <div>
-                <label class="block text-sm mb-1">Wallet Address</label>
-                <input type="text" placeholder="0x..." class="w-full p-2 rounded bg-slate-700 border border-slate-600 focus:outline-none focus:border-blue-500">
-            </div>
-            <button onclick="startWithdrawal()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded transition">
-                Withdraw Now
-            </button>
-        </div>
-    </div>
 
-    <script>
-        function startWithdrawal() {
-            alert("Sistem withdrawal sedang diinisialisasi...");
-            // Tambahkan logika dari snapboost.jsx kamu di sini
-        }
-    </script>
-</body>
-</html>
